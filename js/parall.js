@@ -8,7 +8,7 @@
  */
 
 
-$(document).ready(function(){
+jQuery(document).ready(function($){
 	// Кешируем объект окна
 	$window = $(window);
                 

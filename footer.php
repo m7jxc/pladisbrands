@@ -27,18 +27,6 @@
         <div class="close"></div>
         <h2><span>СПАСИБО!</span><br>Ваша заявка принята</h2>
     </div>
-    <!-- js -->
-    <script src="/wp-content/themes/isak/js/jquery-2.2.4.min.js"></script>
-    <script src="/wp-content/themes/isak/js/jquery.validate.js"></script>
-    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
-    <script src="/wp-content/themes/isak/js/icon_customImage.js"></script>
-    <script src="/wp-content/themes/isak/js/waypoints.min.js"></script>
-    <script src="/wp-content/themes/isak/js/jquery.animateNumber.js"></script>
-    <script src="/wp-content/themes/isak/js/jquery.transit.min.js"></script>
-    <script src="/wp-content/themes/isak/js/parall.js"></script>
-    <script src="/wp-content/themes/isak/js/lightGallery/lightGallery.js"></script>
-    <script src="/wp-content/themes/isak/js/jquery.form.js"></script>
-    <script src="/wp-content/themes/isak/js/main.js"></script>
     <!-- end -->
 	
 <?php wp_footer(); ?>
