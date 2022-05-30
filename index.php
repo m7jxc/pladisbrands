@@ -54,7 +54,7 @@ get_header();
                     <p class="ani-4"><?php the_field('blok_3_tekst'); ?></p>
                     <a href="<?php the_field('blok_3_ssylka_podrobnee'); ?>" target="_blank" class="more ani-4">Подробнее об Ülker</a>
                     <div class="clear"></div>
-                    <a href="http://localhost/ulker<?php the_field('blok_3_ssylka_k_assaortimentu'); ?>" class="button ani-4">К ассортименту</a>
+                    <a href="<?php the_field('blok_3_ssylka_k_assaortimentu'); ?>" class="button ani-4">К ассортименту</a>
                     <div class="clear"></div>
                 </div>
             </div>
@@ -64,7 +64,7 @@ get_header();
                     <img src="<?php the_field('blok_4_logo'); ?>" alt="" class="ani-4">
                     <p class="ani-4"><?php the_field('blok_4_tekst'); ?></p>
                     <a href="<?php the_field('blok_4_ssylka_podrobnee'); ?>" target="_blank" class="more ani-4">Подробнее о McVitie’s (Маквитис)</a>
-                    <a href="http://localhost/ulker<?php the_field('blok_4_ssylka_na_assortiment'); ?>" class="button ani-4">К ассортименту</a>
+                    <a href="<?php the_field('blok_4_ssylka_na_assortiment'); ?>" class="button ani-4">К ассортименту</a>
                     <div class="clear"></div>
                 </div>
             </div>
