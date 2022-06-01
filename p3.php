@@ -86,7 +86,7 @@ if( have_rows('prod') ):
                             <p><?php the_sub_field('vesupakovka');?></p>
                             <div class="clear"></div>
                         </div>
-                        <img src="<?php the_sub_field('kartinka');?>" alt="">
+                        <img src="<?php echo the_sub_field('kartinka') ?>" alt="produkt">
                         <div class="clear"></div>
                     </div>
 					

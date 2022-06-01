@@ -5,7 +5,7 @@
 
 //styles and scripts
 function pladisbrands() {
-	wp_enqueue_style( 'style', get_stylesheet_uri(), array(), 0.01 );
+	wp_enqueue_style( 'style', get_stylesheet_uri(), array(), 0.03 );
 	wp_enqueue_style( 'lightGallery', get_template_directory_uri() . '/js/lightGallery/lightGallery.css',array(),'1.0','all');
 	wp_enqueue_script('jquery.validate', get_template_directory_uri() . '/js/jquery.validate.js', array('jquery'), '', true);
 	wp_enqueue_script('icon_customImage', get_template_directory_uri() . '/js/icon_customImage.js', array('jquery'), '', true);
@@ -50,4 +50,17 @@ if (function_exists('acf_add_options_page')) {
 }
 
 add_theme_support('post-thumbnails');
-add_theme_support('post-thumbnails', array('post'));          // Только для post
+
+function pladisbrands_excerpts( $length ) {
+	if ( is_admin() ) {
+		return $length;
+	}
+	return 20;
+}
+add_filter( 'excerpt_length', 'pladisbrands_excerpts', 999 );
+
+
+function pladisbrands_excerpts_more( $more ) {
+    return '...';
+}
+add_filter( 'excerpt_more', 'pladisbrands_excerpts_more' );

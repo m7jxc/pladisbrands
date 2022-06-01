@@ -19,6 +19,9 @@ get_header();
             <div id="box-11-w">
                 <div id="box-11" class="ani-3">
                     <h3><?php the_title();?></h3>
+                    <div class="post-img">
+                        <?php the_post_thumbnail(); ?>
+                    </div>
                <p><?php the_content(); ?></p>
 				<?php the_date('j-n-Y', '<h6>', '</h6>'); ?>
                     <div class="clear"></div>
